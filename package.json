@@ -1,18 +1,16 @@
 {
   "name": "typescripte",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "devDependencies": {
-    "@types/node": "^25.6.0",
-    "typescript": "^6.0.2"
-  },
+  "description": "Examen TypeScript - calculadora de edad",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/app.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Tu Nombre",
   "license": "ISC",
-  "type": "commonjs",
-  "types": "./app.d.ts"
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
 }
